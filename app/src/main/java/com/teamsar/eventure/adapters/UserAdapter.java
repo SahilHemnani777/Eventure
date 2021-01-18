@@ -1,4 +1,5 @@
 package com.teamsar.eventure.adapters;
 
-public class UserAdapter {
+
+public class UserAdapter{
 }
