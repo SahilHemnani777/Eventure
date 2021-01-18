@@ -33,7 +33,7 @@ import java.util.Objects;
 public class AddNewEvent extends AppCompatActivity {
 
     //Tag for testing purpose
-    private static final String LOG_TAG = "ACTIVITY_ADD'NEW'EVENT_CONTEXT";
+    private static final String LOG_TAG = "activity-add'new'event-context";
 
     //global URI variable for image;
     private Uri imageURI;
@@ -165,10 +165,9 @@ public class AddNewEvent extends AppCompatActivity {
                     ring.start();
 
                     // task is successful
-                    progressDialog.setMessage("Uploaded");
                     progressDialog.dismiss();  //Dismissing the progress dialogue
                     // go back to home activity
-                    finish(); // delaying the task for 2 seconds
+                    finish();
                 }
 
                 /*
